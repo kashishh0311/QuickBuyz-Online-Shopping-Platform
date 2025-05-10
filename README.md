@@ -125,5 +125,5 @@
 
 ## 🖤 Design Highlights
 
-- **Black Theme**: A sleek black interface (`#181824`) with white text for contrast, accented by vibrant green (`#38ce3c`) for actions and red (`#EF4444`) for errors, ensuring a modern and elegant shopping experience.
-- **Consistency**: Uniform dark design across user and admin panels for a cohesive look and feel.
+- **Black Theme**: A sleek whiote interface with white text for contrast, accented by vibrant gray for actions and red (`#EF4444`) for errors, ensuring a modern and elegant shopping experience.
+- **Consistency**: Uniform design across user and admin panels for a cohesive look and feel.
