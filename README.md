@@ -127,9 +127,3 @@
 
 - **Black Theme**: A sleek black interface (`#181824`) with white text for contrast, accented by vibrant green (`#38ce3c`) for actions and red (`#EF4444`) for errors, ensuring a modern and elegant shopping experience.
 - **Consistency**: Uniform dark design across user and admin panels for a cohesive look and feel.
-
-## 🛠️ Troubleshooting
-
-- **Order Total Issues**: If you encounter discrepancies in cart totals (e.g., `₹11549.89` instead of `₹4799.96`), ensure the backend recalculates `totalCartAmount` correctly based on `orderItems`. Use the admin panel to verify product prices.
-- **Quantity Errors**: If quantities are incorrect (e.g., 4 instead of 1), check the cart update logic in `Client_Frontend` and ensure the backend API updates `orderItems` accurately.
-- **Feedback**: Use the feedback feature to report bugs or suggest improvements, helping maintain data consistency and user satisfaction.
