@@ -11,7 +11,7 @@ function Delivery() {
   const navigate = useNavigate();
   const queryParams = new URLSearchParams(location.search);
   const orderId = queryParams.get("orderId") || location.state?.orderId;
-  const paymentId = queryParams.get("paymentId") || "";
+  const paymentId = queryParams.get("paymentId") || location.state?.paymentId;
   const [isVerified, setIsVerified] = useState(false);
   const [order, setOrder] = useState(null);
   const [isLoading, setIsLoading] = useState(true);

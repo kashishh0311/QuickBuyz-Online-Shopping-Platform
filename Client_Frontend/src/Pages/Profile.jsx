@@ -142,7 +142,11 @@ function Profile() {
       setPaymentMethod(paymentResponse.paymentMethod);
 
       navigate(`/delivery`, {
-        state: { orderId, paymentMethod: paymentResponse.paymentMethod },
+        state: {
+          orderId,
+          paymentMethod: paymentResponse.paymentMethod,
+          paymentId: paymentResponse._id,
+        },
       });
     } catch (error) {
       toast.error("Failed to fetch payment details.", {

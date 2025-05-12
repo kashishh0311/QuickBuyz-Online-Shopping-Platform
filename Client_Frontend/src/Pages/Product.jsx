@@ -226,7 +226,7 @@ function Product() {
               </p>
               <button
                 onClick={resetFilters}
-                className="bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-100 hover:text-black transition-colors font-medium"
+                className="bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-800 hover:text-white transition-colors font-medium"
               >
                 Clear Filters
               </button>
