@@ -729,7 +729,7 @@ function Profile() {
                             className="flex justify-between text-sm"
                           >
                             <span className="text-gray-700">
-                              {item.foodId?.name || "Unknown Item"}
+                              {item.productId?.name || "Unknown Item"}
                             </span>
                             <span className="text-gray-600">
                               {item.quantity} pcs
